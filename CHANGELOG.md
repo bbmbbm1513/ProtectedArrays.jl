@@ -15,8 +15,7 @@ Types of changes:
 - `Security` in case of vulnerabilities.
 -->
 
-<!-- next-header -->
-## [Unreleased]
+## [0.1.0]
 
 ### Added
 
@@ -25,13 +24,12 @@ Types of changes:
 
 ### Fixed
 
-- Compatibility with Julia `VERSION >= V"1.8"`.
+- Compatibility with Julia `VERSION >= v"1.8"`.
 - CI.
 
 ## [0.0.0]
 
 Empty project.
 
-<!-- next-url -->
-[Unreleased]: https://github.com/FedericoStra/ProtectedArrays.jl/compare/v0.0.0...HEAD
+[0.1.0]: https://github.com/FedericoStra/ProtectedArrays.jl/compare/v0.0.0...v0.1.0
 [0.0.0]: https://github.com/FedericoStra/ProtectedArrays.jl/releases/tag/v0.0.0
