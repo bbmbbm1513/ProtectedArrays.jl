@@ -26,7 +26,7 @@ const ProtectedMatrix{T,A<:AbstractMatrix{T}} = ProtectedArray{T,2,A}
 
 Type alias and convenience constructor for one-dimensional [`ProtectedArray`](@ref)s.
 """
-const ProtectedVector{T,A<:AbstractMatrix{T}} = ProtectedArray{T,1,A}
+const ProtectedVector{T,A<:AbstractVector{T}} = ProtectedArray{T,1,A}
 
 
 """
