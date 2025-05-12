@@ -6,7 +6,7 @@ export ProtectedArray, ProtectedMatrix, ProtectedVector, protect, unprotect
 
     ProtectedArray(array)
 
-Wrapper around an array which disables `setindex!` to prevent modifications.
+Wrapper around an array which disables [`setindex!`](@extref Base.setindex!) to prevent modifications.
 
 See also [`protect`](@ref) and [`unprotect`](@ref).
 """
@@ -43,7 +43,7 @@ protect(array::AbstractArray) = ProtectedArray(array)
 
 Unwrap a [`ProtectedArray`](@ref) into the underlying array.
 
-This is a synonym of `parent`.
+This is a synonym of [`parent`](@extref Base.parent).
 
 See also [`protect`](@ref).
 """

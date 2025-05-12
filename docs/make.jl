@@ -1,5 +1,6 @@
 using ProtectedArrays
 using Documenter
+using DocumenterInterLinks
 
 DocMeta.setdocmeta!(ProtectedArrays, :DocTestSetup, :(using ProtectedArrays); recursive=true)
 
@@ -15,6 +16,11 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
+    plugins=[
+        InterLinks(
+            "Julia" => "https://docs.julialang.org/en/v1/"
+        )
+    ]
 )
 
 deploydocs(;
