@@ -15,8 +15,23 @@ Types of changes:
 - `Security` in case of vulnerabilities.
 -->
 
+<!-- next-header -->
+## [Unreleased]
+
+### Added
+
+- Types `ProtectedArray`, `ProtectedMatrix`, `ProtectedVector`.
+- Functions `protect`, `unprotect` to wrap and unwrap an array.
+
+### Fixed
+
+- Compatibility with Julia `VERSION >= V"1.8"`.
+- CI.
+
 ## [0.0.0]
 
 Empty project.
 
+<!-- next-url -->
+[Unreleased]: https://github.com/FedericoStra/ProtectedArrays.jl/compare/v0.0.0...HEAD
 [0.0.0]: https://github.com/FedericoStra/ProtectedArrays.jl/releases/tag/v0.0.0
