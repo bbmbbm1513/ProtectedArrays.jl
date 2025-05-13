@@ -1,7 +1,7 @@
 using ProtectedArrays
 using OffsetArrays, StaticArrays, RecursiveArrayTools
 
-err_msg = "`ProtectedArray` does not allow modifying elements with `setindex!`"
+const err_msg = "`ProtectedArray` does not allow modifying elements with `setindex!`"
 
 function test_modification(a::AbstractArray)
     @testset "$(a)" begin

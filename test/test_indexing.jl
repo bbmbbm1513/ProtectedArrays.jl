@@ -1,6 +1,6 @@
 using ProtectedArrays
 
-err_msg = "`ProtectedArray` does not allow modifying elements with `setindex!`"
+const err_msg = "`ProtectedArray` does not allow modifying elements with `setindex!`"
 
 a = [1, 2, 3, 4, 5, 6]
 a_backup = copy(a)
