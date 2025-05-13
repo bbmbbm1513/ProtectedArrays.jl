@@ -12,8 +12,8 @@ using Test, TestSetExtensions, SafeTestsets
         @testset "Interfaces" begin
             @safetestset "Iteration" include("test_iteration.jl")
             @safetestset "Indexing" include("test_indexing.jl")
-            @safetestset "Abstract array" begin end
             @safetestset "Strided array" begin end
+            @safetestset "Abstract array" include("test_abstract_array.jl")
         end
 
         @safetestset "Modification" include("test_modification.jl")
