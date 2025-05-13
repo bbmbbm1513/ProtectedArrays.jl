@@ -10,7 +10,7 @@ using Test, TestSetExtensions, SafeTestsets
         @safetestset "Constructors" include("test_constructors.jl")
 
         @testset "Interfaces" begin
-            @safetestset "Iteration" begin end
+            @safetestset "Iteration" include("test_iteration.jl")
             @safetestset "Indexing" include("test_indexing.jl")
             @safetestset "Abstract array" begin end
             @safetestset "Strided array" begin end
