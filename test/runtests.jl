@@ -2,6 +2,9 @@ using ProtectedArrays
 using Test, TestSetExtensions, SafeTestsets
 
 @testset ExtendedTestSet "ProtectedArrays.jl" begin
+
+    @safetestset "Aqua tests" include("Aqua.jl")
+
     @safetestset "Constructors" begin
         using ProtectedArrays
 
