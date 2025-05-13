@@ -10,7 +10,7 @@ function test_abstract_array(a::AbstractArray)
 
         @test IndexStyle(pa) == IndexStyle(a)
         @test axes(pa) == axes(a)
-        for d in 1:3
+        for d in 1:ndims(a)
             @test axes(pa, d) == axes(a, d)
         end
 
