@@ -1,0 +1,41 @@
+using ProtectedArrays
+using OffsetArrays, StaticArrays, RecursiveArrayTools
+
+function test_iteration(a::AbstractArray)
+    @testset "$(a)" begin
+        backup = deepcopy(a)
+        pa = protect(a)
+
+        @test Base.IteratorSize(pa) == Base.IteratorSize(a)
+        @test length(pa) == length(a)
+        @test size(pa) == size(a)
+        for d in 1:ndims(a)
+            @test size(pa, d) == size(a, d)
+        end
+
+        @test Base.IteratorEltype(pa) == Base.IteratorEltype(a)
+        @test eltype(pa) == eltype(a)
+
+        @test collect(pa) == collect(a)
+        @test iterate(pa) == iterate(a)
+
+        @test parent(pa) === a
+        @test parent(pa) == backup
+    end
+end
+
+test_iteration([1,2,3,4,5,6])
+test_iteration(OffsetArray([1,2,3,4,5,6], 10))
+test_iteration(SArray{Tuple{6}}([1,2,3,4,5,6]))
+test_iteration(MArray{Tuple{6}}([1,2,3,4,5,6]))
+test_iteration(ArrayPartition([1,2,3], [4,5,6]))
+
+test_iteration([1 2 3; 4 5 6])
+test_iteration(OffsetArray([1 2 3; 4 5 6], (100, 10)))
+test_iteration(SArray{Tuple{2,3}}([1 2 3; 4 5 6]))
+test_iteration(MArray{Tuple{2,3}}([1 2 3; 4 5 6]))
+
+test_iteration(transpose([1 2 3; 4 5 6]))
+test_iteration(transpose(OffsetArray([1 2 3; 4 5 6], (100, 10))))
+test_iteration(transpose(SArray{Tuple{2,3}}([1 2 3; 4 5 6])))
+test_iteration(transpose(MArray{Tuple{2,3}}([1 2 3; 4 5 6])))
